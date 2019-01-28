@@ -1,7 +1,8 @@
 const name = 'Freddy';
 
-if (!('serviceWorker' in navigator)) {
-  // old browser
+if (
+      !('serviceWorker' in navigator)) {
+          //  old browser
 }
 
 const greeting = 'hello';
